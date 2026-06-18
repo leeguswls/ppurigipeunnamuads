@@ -1,0 +1,4253 @@
+body{
+    margin:0;
+    font-family:'Noto Serif KR', serif;
+    font-weight:700;
+    background:#ffffff;
+}
+
+a{
+    color:black;
+    text-decoration:none;
+}
+
+
+.mm1 {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.intro{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.intro-content{
+    width:85%;
+}
+
+.intro-content img{
+    width:100%;
+    display:block;
+    text-align:center;
+}
+}
+
+.intro-content p{
+    margin-top:30px;
+    text-align:center;
+    line-height:1.8;
+    text-align:center;
+    word-break:keep-all;
+}
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#bfbcac;
+}
+
+::-webkit-scrollbar-thumb{
+    background:white;
+    border-radius:30px;
+}
+
+.head-img{
+    width:100%;
+    display:block;
+
+    margin:20px 0 80px 0;
+}
+
+.page-header{
+    width:100%;
+    height:155px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:white;
+    border-bottom:2px solid black;
+
+    box-sizing:border-box;
+}
+
+.layout{
+    display:grid;
+    grid-template-columns:420px 1fr;
+    width:100vw;
+    height:100vh;
+    border:2px solid black;
+    box-sizing:border-box;
+}
+
+.intro{
+    height:110vh;
+    overflow-y:auto;
+    padding:28px;
+    box-sizing:border-box;
+    border-right:2px solid black;
+    background:white;
+}
+
+.head-img{
+    width:100%;
+    display:block;
+    margin:0 0 90px 0;
+}
+
+.intro-block{
+    width:100%;
+}
+
+.intro-img{
+    width:100%;
+    display:block;
+    border: 8px solid #bfbcac;
+}
+
+.intro-text{
+    width:100%;
+    margin-top:32px;
+
+    font-size:25px;
+    line-height:2.0;
+
+    text-align:center;
+
+    overflow-wrap:break-word;
+}
+
+.intro p{
+    font-size:18px;
+    line-height:1.8;
+    margin:0 0 90px 0;
+}
+
+.list{
+    height:100vh;
+    overflow-y:auto;
+    background:white;
+}
+
+/* 왼쪽 소개 영역 */
+.intro{
+    border-right:2px solid black;
+
+    height:100vh;
+    overflow-y:auto;
+
+    padding:28px;
+    box-sizing:border-box;
+}
+
+.intro h1{
+    margin:0 0 80px 0;
+
+    font-size:22px;
+    line-height:1.3;
+}
+
+.intro-section{
+    margin-bottom:80px;
+}
+
+.intro-img{
+    width:100%;
+    display:block;
+    margin-bottom:28px;
+}
+
+.intro p{
+    margin:0;
+
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* 오른쪽 광고 목록 */
+.list{
+    height:100vh;
+    overflow-y:auto;
+}
+
+.list a{
+    display:block;
+
+    padding:22px 28px;
+
+    border-bottom:2px solid black;
+
+    font-size:18px;
+    line-height:1.4;
+}
+
+.list a:hover{
+    background:#e8e8e8;
+}
+
+/* ------------------ 모아보기 페이지(all) ------------------ */
+
+.image-btn{
+    position:fixed;
+
+    top:20px;
+    right:20px;
+
+    background:black;
+    color:white !important;
+
+    padding:8px 14px;
+
+    font-size:16px;
+    font-weight:700;
+
+    text-decoration:none;
+
+    z-index:9999;
+}
+
+.side-title{
+    position:fixed;
+    left:0;
+    top:0;
+
+    width:70px;
+    height:100vh;
+
+    background:black;
+    color:white;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    font-size:20px;
+    font-weight:700;
+    line-height:1.6;
+
+    z-index:9999;
+}
+
+.all ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.gallery{
+    display:flex;
+    flex-wrap:nowrap;
+    gap:80px;
+
+    overflow-x:auto;
+    overflow-y:hidden;
+
+    padding-left:130px;
+    padding-right: 120px;
+
+    height:100vh;
+    align-items:center;
+}
+
+.gallery::-webkit-scrollbar{
+    display:none;
+}
+
+.item,
+.item4{
+    flex:0 0 auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.gallery a{
+    display:block;
+}
+
+.item img{
+    height:300px;
+    width:auto;
+    display:block;
+
+    margin-top:120px;
+    border:8px solid black;
+}
+
+.item4 img{
+    height:100px;
+    width:auto;
+    display:block;
+
+    margin-top:240px;
+    border:8px solid black;
+}
+
+.item p,
+.item4 p{
+    margin:20px 0 0 0;
+
+    color:black;
+    font-size:20px;
+    line-height:1.4;
+    text-align:center;
+}
+
+.gallery a:hover{
+    opacity:0.5;
+}
+
+/* ------------------ 두 번째 페이지(t1) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a1{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a1:hover{
+    opacity:0.5;
+}
+
+.donga{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp{
+    width:90%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 세 번째 페이지(t2) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a2{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a2:hover{
+    opacity:0.5;
+}
+
+.donga2{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp2{
+    width:90%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 네 번째 페이지(t3) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a3{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a3:hover{
+    opacity:0.5;
+}
+
+.donga3{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp3{
+    width:90%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 다섯 번째 페이지(t4) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a4{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a4:hover{
+    opacity:0.5;
+}
+
+.donga4{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp4{
+    width:90%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 여섯 번째 페이지(t5) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a5{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a5:hover{
+    opacity:0.5;
+}
+
+.donga5{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp5{
+    width:70%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 일곱 번째 페이지(t6) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a6{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a6:hover{
+    opacity:0.5;
+}
+
+.donga6{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp6{
+    width:30%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 여덟 번째 페이지(t7) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a7{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a7:hover{
+    opacity:0.5;
+}
+
+.donga7{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp7{
+    width:70%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 아홉 번째 페이지(t8) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a8{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a8:hover{
+    opacity:0.5;
+}
+
+.donga8{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp8{
+    width:50%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 열 번째 페이지(t9) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a9{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a9:hover{
+    opacity:0.5;
+}
+
+.donga9{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp9{
+    width:50%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 열 한번째 페이지(t10) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a10{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a10:hover{
+    opacity:0.5;
+}
+
+.donga10{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp10{
+    width:55%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 열 두번째 페이지(t11) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a11{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a11:hover{
+    opacity:0.5;
+}
+
+.donga11{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp11{
+    width:70%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 열 세번째 페이지(t12) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a12{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a12:hover{
+    opacity:0.5;
+}
+
+.donga12{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp12{
+    width:70%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 열 네번째 페이지(t13) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a13{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a13:hover{
+    opacity:0.5;
+}
+
+.donga13{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp13{
+    width:60%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 열 다섯번째 페이지(t14) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a14{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a14:hover{
+    opacity:0.5;
+}
+
+.donga14{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp14{
+    width:70%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 열 여섯번째 페이지(t15) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a15{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a15:hover{
+    opacity:0.5;
+}
+
+.donga15{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp15{
+    width:70%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 열 일곱번째 페이지(t16) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a16{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a16:hover{
+    opacity:0.5;
+}
+
+.donga16{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp16{
+    width:40%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 열 여덟번째 페이지(t17) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a17{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a17:hover{
+    opacity:0.5;
+}
+
+.donga17{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp17{
+    width:80%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 열 아홉번째 페이지(t18) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a18{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a18:hover{
+    opacity:0.5;
+}
+
+.donga18{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp18{
+    width:80%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 스무번째 페이지(t19) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a19{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a19:hover{
+    opacity:0.5;
+}
+
+.donga19{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp19{
+    width:50%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 스물 한번째 페이지(t20) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a20{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a20:hover{
+    opacity:0.5;
+}
+
+.donga20{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp20{
+    width:70%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 스물 두번째 페이지(t21) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a21{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a21:hover{
+    opacity:0.5;
+}
+
+.donga21{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp21{
+    width:65%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 스물 세번째 페이지(t22) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a22{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a22:hover{
+    opacity:0.5;
+}
+
+.donga22{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp22{
+    width:55%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 스물 네번째 페이지(t23) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a23{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a23:hover{
+    opacity:0.5;
+}
+
+.donga23{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp23{
+    width:60%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 스물 다섯번째 페이지(t24) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a24{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a24:hover{
+    opacity:0.5;
+}
+
+.donga24{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp24{
+    width:40%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 스물 여섯번째 페이지(t25) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a25{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a25:hover{
+    opacity:0.5;
+}
+
+.donga25{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp25{
+    width:70%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 스물 일곱번째 페이지(t26) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a26{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a26:hover{
+    opacity:0.5;
+}
+
+.donga26{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp26{
+    width:60%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 스물 여덟번째 페이지(t27) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a27{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a27:hover{
+    opacity:0.5;
+}
+
+.donga27{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp27{
+    width:60%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 스물 아홉번째 페이지(t28) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a28{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a28:hover{
+    opacity:0.5;
+}
+
+.donga28{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp28{
+    width:65%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 서른번째 페이지(t29) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a29{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a29:hover{
+    opacity:0.5;
+}
+
+.donga29{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp29{
+    width:65%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 서른 한번째 페이지(t30) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a30{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a30:hover{
+    opacity:0.5;
+}
+
+.donga30{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp30{
+    width:90%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 서른 두번째 페이지(t31) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a31{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a31:hover{
+    opacity:0.5;
+}
+
+.donga31{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp31{
+    width:30%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 서른 세번째 페이지(t32) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a32{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a32:hover{
+    opacity:0.5;
+}
+
+.donga32{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp32{
+    width:30%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 서른 네번째 페이지(t33) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a33{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a33:hover{
+    opacity:0.5;
+}
+
+.donga33{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp33{
+    width:40%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 서른 다섯번째 페이지(t34) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a34{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a34:hover{
+    opacity:0.5;
+}
+
+.donga34{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp34{
+    width:30%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 서른 여섯번째 페이지(t35) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a35{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a35:hover{
+    opacity:0.5;
+}
+
+.donga35{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp35{
+    width:30%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 서른 일곱번째 페이지(t36) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a36{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a36:hover{
+    opacity:0.5;
+}
+
+.donga36{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp36{
+    width:30%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 서른 여덟번째 페이지(t37) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a37{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a37:hover{
+    opacity:0.5;
+}
+
+.donga37{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp37{
+    width:30%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 서른 아홉번째 페이지(t38) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a38{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a38:hover{
+    opacity:0.5;
+}
+
+.donga38{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp38{
+    width:40%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 마흔번째 페이지(t39) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a39{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a39:hover{
+    opacity:0.5;
+}
+
+.donga39{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp39{
+    width:40%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 마흔 한번째 페이지(t40) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a40{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a40:hover{
+    opacity:0.5;
+}
+
+.donga40{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp40{
+    width:50%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 마흔 두번째 페이지(t41) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a41{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a41:hover{
+    opacity:0.5;
+}
+
+.donga41{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp41{
+    width:50%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 마흔 세번째 페이지(t42) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a42{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a42:hover{
+    opacity:0.5;
+}
+
+.donga42{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp42{
+    width:50%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 마흔 네번째 페이지(t43) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a43{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a43:hover{
+    opacity:0.5;
+}
+
+.donga43{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp43{
+    width:50%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 마흔 다섯번째 페이지(t44) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a44{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a44:hover{
+    opacity:0.5;
+}
+
+.donga44{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp44{
+    width:50%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 마흔 여섯번째 페이지(t45) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a45{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a45:hover{
+    opacity:0.5;
+}
+
+.donga45{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp45{
+    width:50%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 마흔 일곱번째 페이지(t46) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a46{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a46:hover{
+    opacity:0.5;
+}
+
+.donga46{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp46{
+    width:30%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 마흔 여덟번째 페이지(t47) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a47{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a47:hover{
+    opacity:0.5;
+}
+
+.donga47{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp47{
+    width:55%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 마흔 아홉번째 페이지(t48) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a48{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a48:hover{
+    opacity:0.5;
+}
+
+.donga48{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp48{
+    width:30%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 쉰 번째 페이지(t49) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a49{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a49:hover{
+    opacity:0.5;
+}
+
+.donga49{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp49{
+    width:55%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 쉰 한번째 페이지(t50) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a50{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a50:hover{
+    opacity:0.5;
+}
+
+.donga50{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp50{
+    width:60%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 쉰 두번째 페이지(t51) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a51{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a51:hover{
+    opacity:0.5;
+}
+
+.donga51{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp51{
+    width:60%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 쉰 세번째 페이지(t52) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a52{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a52:hover{
+    opacity:0.5;
+}
+
+.donga52{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp52{
+    width:60%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 쉰 네번째 페이지(t53) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a53{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a53:hover{
+    opacity:0.5;
+}
+
+.donga53{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp53{
+    width:90%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 쉰 다섯번째 페이지(t54) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a54{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a54:hover{
+    opacity:0.5;
+}
+
+.donga54{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp54{
+    width:55%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 쉰 여섯번째 페이지(t55) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a55{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a55:hover{
+    opacity:0.5;
+}
+
+.donga55{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp55{
+    width:30%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 쉰 일곱번째 페이지(t56) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a56{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a56:hover{
+    opacity:0.5;
+}
+
+.donga56{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp56{
+    width:55%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 쉰 여덟번째 페이지(t57) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a57{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a57:hover{
+    opacity:0.5;
+}
+
+.donga57{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp57{
+    width:90%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 쉰 아홉번째 페이지(t58) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a58{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a58:hover{
+    opacity:0.5;
+}
+
+.donga58{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp58{
+    width:90%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 예순 번째 페이지(t59) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a59{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a59:hover{
+    opacity:0.5;
+}
+
+.donga59{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp59{
+    width:90%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 예순 한번째 페이지(t60) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a60{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a60:hover{
+    opacity:0.5;
+}
+
+.donga60{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp60{
+    width:30%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 예순 두번째 페이지(t61) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a61{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a61:hover{
+    opacity:0.5;
+}
+
+.donga61{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp61{
+    width:30%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 예순 세번째 페이지(t62) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a62{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a62:hover{
+    opacity:0.5;
+}
+
+.donga62{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp62{
+    width:30%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 예순 네번째 페이지(t63) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a63{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a63:hover{
+    opacity:0.5;
+}
+
+.donga63{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp63{
+    width:60%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 예순 다섯번째 페이지(t64) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a64{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a64:hover{
+    opacity:0.5;
+}
+
+.donga64{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp64{
+    width:30%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 예순 여섯번째 페이지(t65) ------------------ */
+
+.header{
+    position:relative;
+    height:120px;
+}
+
+.a65{
+    position:absolute;
+    top:15px;
+    left:20px;
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.a65:hover{
+    opacity:0.5;
+}
+
+.donga65{
+    position:absolute;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size: 20px;
+}
+
+.back{
+    position:absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+}
+
+.back:hover{
+    opacity:0.5;
+}
+
+/* 광고 이미지 */
+
+.bg-webp65{
+    width:40%;
+    max-width:1600px;
+
+    position:absolute;
+    left:50%;
+    bottom:5vh;
+
+    transform:translateX(-50%);
+
+    display:block;
+    z-index:-1;
+    border: 8px solid black;
+}
+
+/* ------------------ 팝업 ------------------ */
+
+#popup{
+    display:none;
+
+    position:fixed;
+    top:0;
+    left:0;
+
+    width:100vw;
+    height:100vh;
+
+    background:rgba(255,255,255,0.5);
+    backdrop-filter:blur(10px);
+
+    justify-content:center;
+    align-items:center;
+
+    z-index:999;
+}
+
+#popup img{
+    width:400px;
+
+    max-width:90vw;
+    max-height:90vh;
+
+    height:auto;
+
+    display:block;
+}
+
+html,
+body{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+.layout{
+    width:100vw;
+    height:100vh;
+
+    display:grid;
+    grid-template-columns:26vw 1fr;
+}
+
+/* 왼쪽 설명 */
+.intro{
+    height:100vh;
+    padding:clamp(24px, 2vw, 40px);
+    overflow-y:auto;
+}
+
+.intro h1{
+    font-size:clamp(20px, 1.5vw, 30px);
+    margin-bottom:clamp(60px, 7vh, 100px);
+}
+
+.intro-img{
+    width:100%;
+    max-width:360px;
+    margin:0 auto 28px auto;
+}
+
+.intro p{
+    font-size:clamp(15px, 1vw, 20px);
+    line-height:1.8;
+}
+
+/* 오른쪽 목록 */
+.list{
+    height:100vh;
+    overflow-y:auto;
+}
+
+.list a{
+    padding:clamp(18px, 2vh, 28px) clamp(28px, 2vw, 48px);
+    font-size:clamp(16px, 1vw, 22px);
+    line-height:1.5;
+}
+
+/* 1920x1080 기준 */
+@media (min-width:1600px){
+    .layout{
+        grid-template-columns:480px 1fr;
+    }
+
+    .intro h1{
+        font-size:28px;
+    }
+
+    .intro p{
+        font-size:20px;
+    }
+
+    .list a{
+        font-size:20px;
+        padding:24px 36px;
+    }
+}
+
+.header{
+    position:relative;
+}
+
+[class^="donga"]{
+    position:absolute !important;
+    top:15px;
+    right:20px !important;
+
+    left:auto !important;
+    transform:none !important;
+
+    text-align:right;
+}
+
+body{
+    background:#bfbcac;
+}
+
+/* 상단 흰색 바 */
+.header{
+    position:relative;
+    height:55px !important;
+
+    background:white;
+    border-bottom:2px solid black;
+
+    box-sizing:border-box;
+}
+
+/* 왼쪽 제목 */
+[class^="a"]{
+    top:10px !important;
+    left:35px !important;
+    font-size:20px !important;
+}
+
+/* 오른쪽 신문명/날짜 */
+[class^="donga"]{
+    top:10px !important;
+    right:35px !important;
+
+    left:auto !important;
+    transform:none !important;
+
+    font-size:20px !important;
+    text-align:right;
+}
+
+/* 뒤로가기 숨기기 */
+.back{
+    display:none;
+}
+
+@media (min-width:769px){
+
+    .vertical-text br{
+        display:none;
+    }
+
+}
+
+@media (min-width:769px){
+
+    .vertical-text{
+        writing-mode: horizontal-tb;
+    }
+
+    .vertical-text br{
+        display:none;
+    }
+
+}
+
+/* 광고 이미지 */
+[class^="bg-webp"]{
+    position:absolute !important;
+
+    left:50% !important;
+    top:50% !important;
+
+    transform:translate(-50%, -50%) !important;
+
+    width:auto !important;
+    max-width:82vw !important;
+    max-height:62vh !important;
+
+    border:8px solid black !important;
+}
+
+@media (max-width:768px){
+
+    .layout{
+        grid-template-columns:45vw 55vw;
+        width:100vw;
+        height:100vh;
+    }
+
+    .intro{
+        width:45vw;
+        height:100vh;
+        overflow-y:auto;
+        padding:18px;
+    }
+
+    .list{
+        width:55vw;
+        height:100vh;
+        overflow-y:auto;
+    }
+
+    .list a{
+        font-size:10px;
+        padding:18px 16px;
+        line-height:1.5;
+    }
+
+    .intro p{
+        font-size:15px;
+        line-height:1.7;
+    }
+
+    .head-img{
+    width:110%;
+    display:block;
+    margin:0 auto 80px auto;
+    }
+    .intro-img{
+        max-width:100%;
+    }
+
+    .intro-text{
+    font-size:13px;
+    line-height:1.9;
+    }
+
+    .list a{
+    font-size:15px;
+    line-height:1.5;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    img{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+}
+
+@media (max-width:768px){
+    .vertical-text p{
+        height:420px;
+    }
+}
+
+
+
+.text-wrap{
+    width:100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin-top:30px;
+}
+
+.vertical-text{
+    writing-mode:vertical-rl;
+    display:flex;
+    gap:24px;
+}
+
+.vertical-text p{
+    margin:0;
+    height:820px;
+}
+
+@media (max-width:768px){
+
+    [class^="a"]{
+        font-size:19px !important;
+    }
+
+    [class^="donga"]{
+        font-size:19px !important;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .intro-img{
+        width:100%;
+        max-width:none;
+    }
+
+}
+
+.intro{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.vertical-text{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+@media screen and (min-width:769px){
+
+    .vertical-text{
+        writing-mode: horizontal-tb !important;
+        text-orientation: mixed !important;
+    }
+
+    .vertical-text br{
+        display:none;
+    }
+
+}
+
+.text-mobile{
+    display:none;
+}
+
+.text-web{
+    display:block;
+    font-size:18px;
+    line-height:2.4;
+    text-align:left;
+    word-break:keep-all;
+}
+
+@media (max-width:768px){
+
+    .text-web{
+        display:none;
+
+    }
+
+    .text-mobile{
+        display:block;
+        writing-mode:vertical-rl;
+        text-orientation:mixed;
+
+        font-size:15px;
+        line-height:2;
+        letter-spacing:2px;
+        margin:0 auto;
+        padding:0;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .text-mobile{
+        writing-mode: vertical-rl;
+        height: 1000px;
+    }
+
+}
+

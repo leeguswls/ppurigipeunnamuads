@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko"> 
+<head>
+	<eta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>좀 엉뚱한 소리</title>
+	<meta name="description" content="빨강 바탕 페이지입니다.">
+	<meta name="keywords" content="문장">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="t53">
+  <div class="header">
+    <div class="a53" id="open">9월호</div>
+    <div class="donga53">조선일보 1979년 9월 6일</div>
+  </div>
+  <div id="popup">
+    <img src="m43.jpeg">
+  </div>
+  <article class="n53">
+    <img src="n53.webp" alt="n53" class="bg-webp53">
+  </article>
+  <script>
+    const open = document.getElementById("open");
+    const popup = document.getElementById("popup");
+    open.onclick = function(){
+      popup.style.display = "flex";
+    }
+    popup.onclick = function(){
+      popup.style.display = "none";
+    }
+  </script>
+</body>
+</html>

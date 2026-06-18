@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko"> 
+<head>
+	<eta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>걱정거리를 팝니다</title>
+	<meta name="description" content="빨강 바탕 페이지입니다.">
+	<meta name="keywords" content="문장">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="t61">
+  <div class="header">
+    <div class="a61" id="open">4월호</div>
+    <div class="donga61">동아일보 1980년 4월 3일</div>
+  </div>
+  <div id="popup">
+    <img src="m50.jpeg">
+  </div>
+  <article class="n61">
+    <img src="n61.webp" alt="n61" class="bg-webp61">
+  </article>
+  <script>
+    const open = document.getElementById("open");
+    const popup = document.getElementById("popup");
+    open.onclick = function(){
+      popup.style.display = "flex";
+    }
+    popup.onclick = function(){
+      popup.style.display = "none";
+    }
+  </script>
+</body>
+</html>
