@@ -4309,3 +4309,42 @@ body{
         padding:14px 16px !important;
     }
 }
+
+@media (max-width:768px){
+
+    .intro{
+        padding:0 !important;
+    }
+
+    .site-title{
+        position:sticky !important;
+        top:0 !important;
+        margin:0 !important;
+        padding:16px 0 16px 16px !important;
+        font-size:20px !important;
+        line-height:1.35 !important;
+        z-index:999 !important;
+    }
+
+    .intro-section{
+        padding:0 !important;
+        margin:0 !important;
+    }
+
+    .intro-content{
+        padding:0 !important;
+        margin:0 !important;
+        width:100% !important;
+    }
+
+    .intro-img{
+        width:100% !important;
+        max-width:none !important;
+        margin:0 0 24px 0 !important;
+        border:0 !important;
+    }
+
+    .text-wrap{
+        margin-top:0 !important;
+    }
+}
