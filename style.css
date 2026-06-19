@@ -4251,3 +4251,9 @@ body{
 
 }
 
+.left-title,
+.right-title {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+}
+
